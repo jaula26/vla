@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+
+
 import temperature_csv as tc
 
 def test_temperature_csv():
