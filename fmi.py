@@ -25,9 +25,9 @@ class weather:
         self.wind = wind
         self.moist = moist
     def __str__ ( self):
-        return "%02d.00: %3d C, %2d m/s, %d %%" % (self.hour, self.temp, self.wind, self.moist)
+        return "%02d.00: %3.1f C, %2d m/s, %d %%" % (self.hour, self.temp, self.wind, self.moist)
     def __repr__ ( self):
-        return "%02d.00: %3d C, %2d m/s, %d %%" % (self.hour, self.temp, self.wind, self.moist)
+        return "%02d.00: %3.1f C, %2d m/s, %d %%" % (self.hour, self.temp, self.wind, self.moist)
     
         
 class weatherForecast:
